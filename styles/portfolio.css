@@ -22,6 +22,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0, 200px;
 }
 
 .nav-tytle {
@@ -43,4 +44,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: rgb(29, 27, 27);
+}
+
+/* Header related styles */
+.header {
+    background-color: #f5bb916b;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-pic {
+    width: 500px;
 }
